@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --purplerain: #6930c3;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  transition: all ease 0.5s;
+}
+
+/* Hero Section */
+
+.hero {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  border-bottom: 0;
+  margin: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.container-properties {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+#icons {
+  font-size: 2.5rem;
+  color: var(--purplerain);
+  margin: auto 20px;
+  transition: all 0.3s ease 0s;
+}
+
+#icons:hover {
+  color: rgba(105, 48, 195, 0.8);
+}
+
+#jumbo-text {
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.my-name {
+  color: var(--purplerain);
+}
+
+#new-button {
+  margin: 20px 10px;
+  padding: 9px 25px;
+  background-color: var(--purplerain);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+#new-button a {
+  text-decoration: none;
+  color: white;
+}
+
+#new-button:hover {
+  color: white;
+  background-color: rgba(105, 48, 195, 0.8);
+}
+
+/* Projects Section */
+
+#projects {
+  background: var(--purplerain);
+  color: white;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  border-bottom: 0;
+  margin: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.wrapper h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.project-title {
+  font-size: 2rem;
+}
+
+.project-description {
+  font-size: 1rem;
+  text-align: left;
+}
+
+#project-buttons {
+  margin: 20px 10px;
+  padding: 9px 25px;
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+#project-buttons a {
+  text-decoration: none;
+  color: black;
+}
+
+#project-buttons:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.images {
+  width: auto;
+  height: auto;
+}
+
+/* About Me */
+
+#about-me {
+  background: white;
+  color: black;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  border-bottom: 0;
+  margin: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.my-story {
+  text-align: left;
+}
+
+.my-story h2{
+  font-size: 2.1rem;
+}
+
+/* Contact Section */
+
+#Contact {
+  background: var(--purplerain);
+  color: white;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  min-height: 80vh;
+  align-items: center;
+  border-bottom: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Footer Section */
+
+.footer-recs {
+  background-color: #333;
+  padding: 5rem 0;
+  font-size: 10px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
+#icons-footer {
+  font-size: 2rem;
+  color: white;
+  margin: auto 20px;
+  transition: all 0.3s ease 0s;
+}
+
+#icons-footer:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
