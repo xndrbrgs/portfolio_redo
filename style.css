@@ -35,6 +35,10 @@ body {
   padding-bottom: 4rem;
 }
 
+#container-props {
+  max-width: 1140px;
+}
+
 #icons {
   font-size: 2.5rem;
   color: var(--purplerain);
@@ -170,7 +174,23 @@ body {
   overflow: hidden;
 }
 
+.number {
+  color: #333;
+  padding-bottom: 10px;
+}
+
 /* Footer Section */
+
+.form-group input {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+#form-props button {
+  margin: 20px;
+}
 
 .footer-recs {
   background-color: #333;
